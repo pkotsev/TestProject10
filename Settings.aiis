@@ -200,8 +200,8 @@
       "ArtOfTest.WebAii, Version=2016.1.321.0, Culture=neutral, PublicKeyToken=4fd5f65be123776c",
       "ArtOfTest.WebAii.Design, Version=2016.1.321.0, Culture=neutral, PublicKeyToken=4fc62bbc3827ab1d"
     ],
-    "ScheduleServerUrl": "http://localhost:8009",
-    "IsScheduleServerRemote": false,
+    "ScheduleServerUrl": "http://nipetrov:8009/",
+    "IsScheduleServerRemote": true,
     "ProjectVersion": "2016.2.610.0",
     "Namespace": "TestProject11",
     "AssemblyName": "TestProject11",
