@@ -209,12 +209,33 @@
     "ExcludedFiles": [],
     "DisabledTranslators": [],
     "SkipFindExpressionSetDataDrivenWarning": false,
-    "BugTrackerPersistableSettings": {},
+    "BugTrackerPersistableSettings": {
+      "Team Foundation Server": {
+        "__type": "Telerik.TestStudio.TFSBugTracker.TFSSettings",
+        "__value": {
+          "ServerName": "http://tfs.telerik.com:8082/",
+          "TfsCollection": {
+            "__type": "Telerik.TestStudio.TFSBugTracker.TfsCollection",
+            "__value": {
+              "TfsCollectionId": "6fc52a2a-de3b-45d5-abb5-0e3f66d7317a",
+              "TfsCollectionName": "DefaultCollection",
+              "RootName": "TFSSettings",
+              "CurrentVersion": "2016.2.610.0",
+              "XmlBlob": null
+            }
+          },
+          "ProjectName": "AdminTeam",
+          "RootName": "",
+          "CurrentVersion": "2016.2.610.0",
+          "XmlBlob": null
+        }
+      }
+    },
     "ActiveBugTrackers": [],
-    "BugTitleMask": "{Step name} step on {Test name} test failed.",
+    "BugTitleMask": "{0} step on {1} test failed.",
     "BugAddAttachment": true,
     "BugAutoSubmit": false,
-    "BugDescriptionMask": "{Description}",
+    "BugDescriptionMask": "{0}",
     "SelectedBrowserOption": 0
   }
 }
